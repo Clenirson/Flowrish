@@ -1,0 +1,174 @@
+header{
+    padding-top: 45vw;
+    height: 80vw;
+    background-image: url("pexels-chelene-f-P.jpg");
+    background-size: cover;
+    font-family: 'Oooh Baby', cursive;
+}
+.logo{
+    text-align: center;
+    font-size: 20vw;
+    font-weight: bold;
+    
+}
+.sub-logo{
+    text-align: center;
+    font-size: 10vw;
+    
+}
+main{
+   background-image: linear-gradient( pink,blueviolet);
+
+}
+.quem{
+    padding: 15vw;
+}
+.descriçao{
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 60vw;
+    padding: 5vw;
+}
+.info-prod{
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 60vw;
+    padding: 5vw;
+}
+.produto{
+    background-size: cover;
+    background-image: url(pexels-ellie-burgin\ P.jpg);
+    padding: 15vw;
+    border-radius: 35px;
+}
+.prd{
+    width: 20vw;
+    padding: 5vw;
+}
+.info{
+    padding: 15vw;
+}
+footer{
+    font-family: 'Oooh Baby', cursive;
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10vw;
+    font-size: 17px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) { /* tablet*/
+    header{
+        padding-top: 45vw;
+        height: 80vw;
+        background-image: url("pexels-chelene-f-M.jpg");
+        background-size: cover;
+        font-family: 'Oooh Baby', cursive;
+    }  
+    .quem{
+        padding: 15vw;
+    }
+    .descriçao{
+        font-size: 30px;
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+        height: 50vw;
+        width: 60vw;
+        padding: 5vw;
+    }
+    .info-prod{
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+        width: 60vw;
+        padding: 5vw;
+    }
+    .produto{
+        font-size: 30px;
+        background-size: cover;
+        background-image: url(pexels-ellie-burgin\ M.jpg);
+        padding: 15vw;
+        border-radius: 35px;
+    }
+    .prd{
+        width: 25vw;
+        padding: 5vw;
+    }
+    .info{
+        font-size: 30px;
+        padding: 15vw;
+    }
+    footer{
+        font-family: 'Oooh Baby', cursive;
+        background-color: blueviolet;
+        text-align: center;
+        padding: 10vw;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {/*desktop*/
+    header{
+        padding-top: 13vw;
+        height: 50vw;
+        background-image: url("pexels-chelene-f-G.jpg");
+        background-size: cover;
+        font-family: 'Oooh Baby', cursive;
+        
+    }  
+    .logo{
+        text-align: center;
+        font-size: 15vw;
+        font-weight: bold;
+        
+    }
+    .sub-logo{
+        text-align: center;
+        font-size: 7vw;
+        
+    }
+    .quem{
+        padding: 15vw;
+    }
+    .descriçao{
+        font-size: 4vw;
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+        height: 50vw;
+        width: 60vw;
+        padding: 5vw;
+    }
+    .info-prod{
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+        width: 60vw;
+        padding: 5vw;
+    }
+    .produto{
+        font-size: 4vw;
+        background-size: cover;
+        background-image: url(pexels-ellie-burgin\ M.jpg);
+        padding: 15vw;
+        border-radius: 35px;
+    }
+    .prd{
+        width: 25vw;
+        padding: 5vw;
+    }
+    .info{
+        display: flex;
+        font-size: 4vw;
+        padding: 15vw;
+    
+    }
+    footer{
+        font-family: 'Oooh Baby', cursive;
+        background-color: blueviolet;
+        text-align: center;
+        padding: 10vw;
+        font-size: 4vw;
+    }
+}
